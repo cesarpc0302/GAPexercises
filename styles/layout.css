@@ -1,0 +1,215 @@
+html{
+	overflow-y:scroll;
+}
+
+body{
+	margin:0; 
+	padding:0; 
+	font-size:13px; 
+	font-family:Georgia, "Times New Roman", Times, serif; 
+	color:#dedede; 
+	background: #232323 url("http://cteae.com/images/fd-3/restaurant-background-design-decorating-10.jpg") no-repeat fixed center;
+}
+
+a{
+	outline:none; 
+	text-decoration:none;
+	color:#919191; 
+}
+
+img{
+	margin:0; 
+	padding:0; 
+	border:none; 
+	line-height:normal; 
+	vertical-align:middle;
+}
+
+address, article, aside, figcaption, figure, footer, header, nav, section{
+	display:block; 
+	margin:0; 
+	padding:0;
+}
+
+#header, #container, #footer{
+	display:block; 
+	width:960px; 
+	margin:0 auto;
+}
+
+/* ------ wrappers -------*/
+
+.wrapper{
+	display:block; 
+	width:100%; 
+	margin:0; 
+	padding:0; 
+	text-align:left;
+}
+
+.block{
+		background-color:#232323;
+		opacity: 0.9;
+}
+
+/* ------ header -------*/
+
+.header-cont {
+    width:100%;
+    position:fixed;
+    top:0px;
+}
+
+#header{
+	padding:20px 0;
+	height: 100px;
+}
+
+#header .group{
+	float:left; 
+	margin:0 0 20px 0;
+}
+
+#header .group h1, #header .group h2{
+	font-weight:normal; 
+	font-style:normal; 
+	text-transform:none;
+}
+
+#header .group h1{
+	font-size:36px;
+}
+
+#header .group h2{
+	font-size:13px;
+}
+
+#header nav{
+	display:block; 
+	float:right; 
+	margin:10px 0 0 0; 
+	padding:20px 0; 
+	color:#C0BAB6; 
+	background-color:#333333;
+}
+
+#header nav ul{
+	padding:0 20px;
+}
+
+#header nav li{
+	display:inline; 
+	margin-right:25px; 
+	text-transform:uppercase;
+}
+
+#header nav li.last{
+	margin-right:0;
+}
+
+#header nav li a{
+	color:#C0BAB6; 
+	background-color:#333333;
+}
+
+#header nav li a:hover{
+	color:#FF9900; 
+	background-color:#333333;
+}
+
+/* ------ content -------*/
+
+.body-cont {
+    margin-top: 175px;
+}
+
+#slider{
+	margin:0 0 40px 0;
+}
+
+#homepage{
+	display:block; 
+	width:100%; 
+}
+
+#acercade{
+	height: 250px;
+	margin:0 0 40px 0; 
+}
+
+#acercade article figure img{
+	float:right;
+	margin:0 0 10px 0; 
+	padding:4px; 
+}
+
+#acercade article figure figcaption{
+	float:left; 
+	width:460px;
+}
+
+#comidas{
+	height: 260px;
+	margin:0 0 40px 0;
+}
+
+#comidas article figure img{
+	margin:0 0 15px 0;
+	padding:4px; 
+}
+
+#comidas article figure h2{
+	font-size:14px; 
+	font-weight:bold;
+}
+
+.pad{
+	padding: 5px;
+}
+.padizq{
+	padding-left: 5px;
+}
+
+.mealDiv{
+	display:block; 
+	float:left; 
+	margin:0 30px 0 0;
+	width:300px;
+}
+
+.ultimo{
+	margin-right:0;
+}
+
+.layer1{
+	background-color:#232323;
+	opacity: 0.6;
+	height: 80%;
+    width: 960px;
+    position: absolute;
+    z-index: -1;
+}
+
+.layermenu{
+	height: 56%;
+}
+
+.layercontacto{
+	height: 97%
+}
+
+.layerComidas{
+	height: 96%
+}
+
+#menuComidas{
+	height: 670px;
+}
+
+/* ------ footer -------*/
+
+#footer{
+	padding:5px 0; 
+	font-size:12px;
+	margin-top: 60px;
+}
