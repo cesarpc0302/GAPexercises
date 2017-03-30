@@ -4,13 +4,14 @@
   <head>
     <title>Restaurante</title>
     <meta charset="iso-8859-1">
+    <link rel="stylesheet" href="styles/layout.css" type="text/css">
   </head> 
 
   <body>
     
-    <div>
+    <div class="wrapper block header-cont">
       <header id="header">
-        <div>
+        <div class="group">
           <h1><a href="index.html">Restaurante</a></h1>
           <h2>Lorem ipsum dolor sit amet</h2>
         </div>
@@ -24,54 +25,58 @@
       </header>
     </div>  
 
-    <div>
+    <div class="wrapper body-cont">
+
       <div id="container">
 
-          <h1>Cenas</h1>
+        <div id="menuComidas">
+          <div class="layer1 layerComidas"></div>
+          <h1 class="pad">Cenas</h1>
+
           <section id="cenas">
-            <article>
-              <figure><img src="images/cena.png" width="290" height="180" alt="">
-                <figcaption>
+            <article class="mealDiv izq">
+              <figure class="padizq"><img src="http://www.cocina-familiar.com/wp-content/uploads/2015/07/Recetas-caseras-para-cenas-r%C3%A1pidas-portada.jpg" width="290" height="180" alt="">
+                <figcaption class="pad">
                   <h2>Cena 1</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </figcaption>
               </figure>
             </article>
-            <article>
-              <figure><img src="images/cena.png" width="290" height="180" alt="">
-                <figcaption>
+            <article class="mealDiv">
+              <figure><img src="https://unareceta.com/wp-content/uploads/2016/10/cenas-ligeras.jpg" width="290" height="180" alt="">
+                <figcaption class="pad">
                   <h2>Cena 2</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </figcaption>
               </figure>
             </article>
-            <article>
-              <figure><img src="images/cena.png" width="290" height="180" alt="">
-                <figcaption>
+            <article class="mealDiv ultimo">
+              <figure><img src="http://blog.kiwilimon.com/wp-content/uploads/2011/09/cenas-invitados.jpg" width="290" height="180" alt="">
+                <figcaption class="pad">
                   <h2>Cena 3</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </figcaption>
               </figure>
             </article>
-            <article>
-              <figure><img src="images/cena.png" width="290" height="180" alt="">
-                <figcaption>
+            <article class="mealDiv">
+              <figure class="padizq"><img src="http://laguiadelasvitaminas.com/wp-content/uploads/2015/05/cenas-para-quemar-grasa2.jpg" width="290" height="180" alt="">
+                <figcaption class="pad">
                   <h2>Cena 4</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </figcaption>
               </figure>
             </article>
-            <article>
-              <figure><img src="images/cena.png" width="290" height="180" alt="">
-                <figcaption>
+            <article class="mealDiv">
+              <figure><img src="http://www.portalinicio.com/wp-content/uploads/2015/01/Cocina-Metab%C3%B3lica.jpg" width="290" height="180" alt="">
+                <figcaption class="pad">
                   <h2>Cena 5</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </figcaption>
               </figure>
             </article>
-            <article>
-              <figure><img src="images/cena.png" width="290" height="180" alt="">
-                <figcaption>
+            <article class="mealDiv ultimo">
+              <figure><img src="http://www.nuevatribuna.es/media/nuevatribuna/images/2016/05/01//2016050118062281694.jpg" width="290" height="180" alt="">
+                <figcaption class="pad">
                   <h2>Cena 6</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </figcaption>
@@ -79,11 +84,11 @@
             </article>
           </section>
         </div>
-
+      </div>
     </div>  
 
-    <div>
-      <footer>
+    <div class="wrapper block">
+      <footer id="footer">
         <p>Cesar Peralta - HTML exercise</p>
       </footer>
     </div>
